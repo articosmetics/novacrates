@@ -1,0 +1,10 @@
+name: NovaCrates
+version: 1.2.4
+main: dev.wnderin.novacrates.NovaCrates
+api-version: '1.21'
+author: Wnderin
+description: Advanced custom crate rewards engine with BlockDisplay visuals and virtual keys.
+permissions:
+  novacrates.admin:
+    description: Create and configure crates, modify loot tables, and grant virtual keys
+    default: op

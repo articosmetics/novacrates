@@ -1,0 +1,31 @@
+prefix: "&#00d2ff&lNOVACRATES &8● &f"
+
+shrink-shulker: true
+shulker-size: 0.8
+glass-case: true
+glass-size: 1.0
+glow: false
+
+half-star-colour: "&#A0762A"
+
+hologram:
+  match-colour: true
+  height: 0
+  scale: 0.8
+  lines:
+    - "%crate%"
+    - "%subtitle%"
+    - ""
+    - "&#00d2ff▶ &fLeft-Click to &#00d2ffPreview"
+    - "&#00d2ff◀ &fRight-Click to &#00d2ffOpen"
+    - "&#00d2ff◀ &fShift Right-Click to &#00d2ffOpen All"
+  default-subtitle: "&7Get keys @ /store"
+  keys-line: "&fYou have &#00d2ff%keys% &fkeys!"
+
+daily-keyall:
+  enabled: false
+  crate: daily
+  amount: 1
+  time: "18:00"
+  timezone: "Europe/London"
+  broadcast: "&7Everyone online got &f%amount%x %crate% &fKey&7! &8(/keys)"
